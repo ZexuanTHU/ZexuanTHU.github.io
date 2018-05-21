@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-19T23:27:38+08:00</updated><id>http://localhost:4000/</id><title type="html">ZexuanTHU’s Blog</title><subtitle>Code Love Life</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/05/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-05-19T22:05:38+08:00</published><updated>2018-05-19T22:05:38+08:00</updated><id>http://localhost:4000/jekyll/update/2018/05/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/05/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-05-21T13:17:09+08:00</updated><id>http://localhost:4000/</id><title type="html">ZexuanTHU’s Blog</title><subtitle>Code Love Life</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/05/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-05-19T22:05:38+08:00</published><updated>2018-05-19T22:05:38+08:00</updated><id>http://localhost:4000/jekyll/update/2018/05/19/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/05/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -106,4 +106,25 @@ type in host(IP address), Port(Shadowsocks server port), password(ShadowSocks se
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;WELCOME TO VIEW MY GITHUB HOME PAGE https://github.com/ZexuanTHU and STAR THIS ATRICLE.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How to set VPS and ShadowSocks from zero This is a handbook for totally rookie guy who want to browsw Google, Youtube or other already-banned website or webservice in mainland, China.</summary></entry></feed>
+&lt;p&gt;&lt;strong&gt;WELCOME TO VIEW MY GITHUB HOME PAGE https://github.com/ZexuanTHU and STAR THIS ATRICLE.&lt;/strong&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">How to set VPS and ShadowSocks from zero This is a handbook for totally rookie guy who want to browsw Google, Youtube or other already-banned website or webservice in mainland, China.</summary></entry><entry><title type="html">Commands And Scripts Of Imagej:scijava</title><link href="http://localhost:4000/2017/05/21/Commands-and-Scripts-of-ImageJ-SciJava.html" rel="alternate" type="text/html" title="Commands And Scripts Of Imagej:scijava" /><published>2017-05-21T00:00:00+08:00</published><updated>2017-05-21T00:00:00+08:00</updated><id>http://localhost:4000/2017/05/21/Commands-and-Scripts-of-ImageJ:SciJava</id><content type="html" xml:base="http://localhost:4000/2017/05/21/Commands-and-Scripts-of-ImageJ-SciJava.html">&lt;h1 id=&quot;commands-and-scripts-of-imagejscijava&quot;&gt;Commands and Scripts of ImageJ/SciJava&lt;/h1&gt;
+
+&lt;h2 id=&quot;imagejs-architecture&quot;&gt;ImageJ’s Architecture&lt;/h2&gt;
+
+&lt;p&gt;Scijava is the fundmendation of ImageJ. ImageJ’s functionality was divided into several services, including:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;plugin&lt;/li&gt;
+  &lt;li&gt;module&lt;/li&gt;
+  &lt;li&gt;log&lt;/li&gt;
+  &lt;li&gt;status&lt;/li&gt;
+  &lt;li&gt;menu&lt;/li&gt;
+  &lt;li&gt;……&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;modules-commands-and-scripts&quot;&gt;Modules: Commands and Scripts&lt;/h2&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Script&lt;/code&gt; is kind of plugin written in any available SciJava Scripting Language. For now, the supportted script language includes: Groovy, ImageJ Macro, Python (JPython), JavaScript, Ruby (JRuby), Lisp (Clojure), R (Renjin), Java, MATLAB, BeanShell, Scala (experimental). For more details, please see &lt;a href=&quot;https://imagej.net/Scripting&quot;&gt;this page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Whereas, a &lt;code class=&quot;highlighter-rouge&quot;&gt;command&lt;/code&gt; is plugin written in Java (now in ImageJ2 Kotlin was supported). Compare to a script, a command is more verbose, but there also has its own advantages: higher performance, typed, IDE supports, etc. &lt;strong&gt;Now with Kotlin landed&lt;/strong&gt;, writting a command for ImageJ2 become more easier than before.&lt;/p&gt;
+
+&lt;p&gt;We will discuss about implementing ImageJ2 commands with Kotlin later.&lt;/p&gt;</content><author><name></name></author><summary type="html">Commands and Scripts of ImageJ/SciJava</summary></entry></feed>
