@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This is ZexuanTHU's blog, I will share my technical thinking, personal life and shining love moments. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+About me, I am a undergraduate from Tsinghua University, Beijing, China. I am currently taking a gap year to prepare for my next application of graduate study in the **Computer Science** of **Bioinformatics** fields. So, if you have any research / development oppertunity, please feel free to contact me.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Following is my github account. This blog was served on the **Github Pages**. Thanks for it.
 
-
-[jekyll-organization]: https://github.com/jekyll
+[ZexuanTHU]: https://github.com/ZexuanTHU/
